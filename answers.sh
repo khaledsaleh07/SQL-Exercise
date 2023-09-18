@@ -50,3 +50,59 @@ JOIN Companies ON Employees.Company = Companies.ID
 WHERE Employees.Role = 'Graphic Designer';
 
 
+#18-
+SELECT name
+FROM students
+ORDER BY Points DESC
+LIMIT 1;
+
+#19-
+SELECT AVG(Points)
+FROM students;
+
+#20-
+SELECT count(name) FROM students WHERE Points = 500;
+
+#21-
+SELECT name
+FROM students
+WHERE name LIKE '%s%';
+
+#22-
+SELECT *
+FROM students
+ORDER BY Points DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
